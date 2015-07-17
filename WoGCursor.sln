@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoGCursor", "WoGCursor\WoGCursor.csproj", "{2AB19B94-FBD6-4BEF-963C-896A78DDC45A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoGCursorInstaller", "WoGCursorInstaller\WoGCursorInstaller.csproj", "{92F32C46-5D71-4890-B286-DF90E1821AAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2AB19B94-FBD6-4BEF-963C-896A78DDC45A} = {2AB19B94-FBD6-4BEF-963C-896A78DDC45A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MygodLibrary", "..\MygodLibrary\MygodLibrary\MygodLibrary.csproj", "{D915CED8-AC3F-40D6-8C95-4D176C924A61}"
 EndProject
